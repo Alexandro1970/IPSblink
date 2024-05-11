@@ -1,37 +1,19 @@
 {
-	"elements":	[
-		{ 
-			"type": "CheckBox", 
-			"caption": "Use only devices with state on"
-			"name": "onlyOn", 
-		},
-		{
-			"type": "Select",
-			"caption": "Last state",
-			"name": "lastState",
+	"elements":
+	[
+		{ "type": "CheckBox", "name": "onlyOn", "caption": "Use only devices with state on" },
+		{ "type": "Select", "name": "lastState", "caption": "Last state",
 			"options": [
 				{ "label": "Off", "value": 0 },
 				{ "label": "On", "value": 1 },
 				{ "label": "Previous", "value": 2 }
 			]
 		},
-		{
-			"type": "NumberSpinner",
-			"name": "blinkNum",
-			"caption": "Count of flashes" },
-		{
-		"type": "Label",
-		"label": "Periods in seconds" },
-		{ 
-		"type": "NumberSpinner",
-		"name": "timeOn",
-		"caption": "Period ON" },
-		{ 
-		"type": "NumberSpinner",
-		"name": "timeOff",
-		"caption": "Period OFF" },
-      	{ 
-		"type": "Label", "label": "Add/Delete variables to blink" },
+		{ "type": "NumberSpinner", "name": "blinkNum", "caption": "Count of flashes" },
+		{ "type": "Label", "label": "Periods in seconds" },
+		{ "type": "NumberSpinner", "name": "timeOn", "caption": "Period ON" },
+		{ "type": "NumberSpinner", "name": "timeOff", "caption": "Period OFF" },
+      	{ "type": "Label", "label": "Add/Delete variables to blink" },
       	{
 			"type": "List",
 			"name": "devices",
@@ -39,13 +21,13 @@
 			"add": true,
 			"delete": true,
 			"sort": {
-			  "column": "ID",
+			  "column": "id",
 			  "direction": "ascending"
 				},
 			"columns": [{
 			  "name" : "id",
 			  "label" : "ID",
-			  "width" : "50px",
+			  "width" : "auto",
 			  "add": 0,
 			  "edit": {
 				"type": "SelectVariable"
@@ -53,25 +35,21 @@
 			}, {
 			  "name": "name",
 			  "label": "Name",
-			  "width": "190px",
+			  "width": "400px",
 			  "add": "Variable auswählen"
 			}, {
 			  "name" : "variable",
 			  "label" : "Variable",
-			  "width" : "60px",
+			  "width" : "150px",
 			  "add": ""
 			}, {
 			  "name" : "status",
 			  "label" : "Status",
-			  "width" : "120",
+			  "width" : "75px",
 			  "add": ""
 			}],
 			"values": []
 		},
-		{
-			"type": "Button",
-			"label": "Test",
-			"onClick": "IPSblink_Blink($id);"
-		}	  
+		{ "type": "Button", "label": "Test", "onClick": "IPSblink_Blink($id);" }	  
 	]
 }
