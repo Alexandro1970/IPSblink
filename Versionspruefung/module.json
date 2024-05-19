@@ -1,15 +1,15 @@
 {
-    "id": "{56668550-998E-2D77-33A5-AC0C2B65BCF9}",
-    "name": "Versionspruefung",
-    "type": 3,
-    "vendor": "",
-    "aliases":
-    [
-        "Versionsprüfung"
-    ],
-    "url": "",
-    "parentRequirements": [],
-    "childRequirements": [],
-    "implemented": [],
-    "prefix": "VP"
+  "id": "{7F7BE9E1-FD90-4BF5-89C0-4EEB431F22F9}",
+  "name": "Light Automat",
+  "type": 3,
+  "vendor": "",
+  "aliases": [
+    "Lichtautomat",
+    "Treppenautomat",
+    "Tasterschaltung"
+  ],
+  "parentRequirements": [],
+  "childRequirements": [],
+  "implemented": [],
+  "prefix": "TLA"
 }
