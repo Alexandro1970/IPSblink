@@ -1,12 +1,1 @@
-{
-    "id": "{F0C7A53B-D934-3D44-A3C0-8927902F4737}",
-    "name": "Versionspruefung",
-    "type": 3,
-    "vendor": "",
-    "aliases":
-    [ "Versionsprüfung" ],
-    "parentRequirements": [],
-    "childRequirements": [],
-    "implemented": [],
-    "prefix": "VP"
-}
+
