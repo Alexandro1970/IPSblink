@@ -1,12 +1,9 @@
 {
-    "id": "{FCCA06D8-7A88-1425-9B51-2855ED4E43A4}",
-    "author": "Alex",
-    "name": "Versionsprüfung",
-    "url": "www.nochnicht.de",
-    "compatibility": {
-        "version": "5.0"
-    },
-    "version": "1.0",
-    "build": 0,
-    "date": 0
+  "id": "{F96AD408-75FF-4665-B1D2-F092B52FC994}",
+  "author": "Wilkware (@Pitti)",
+  "name": "Toolmatic",
+  "url": "https://github.com/Wilkware",
+  "version": "4.0",
+  "build": 20190415,
+  "date": 1555286400
 }
